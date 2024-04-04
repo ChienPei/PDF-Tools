@@ -1,0 +1,7 @@
+source_pdf_path: 'CCF_2022.pdf'
+target_pdf_path: 'CCF_2022_selected.pdf'
+text_criteria_list:
+  - '数据库/数据挖掘/内容检索'
+  - '数据库／数据挖掘／内容检索'
+  - '人工智能'
+  - '交叉/综合/新兴'
