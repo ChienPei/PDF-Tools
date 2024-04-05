@@ -20,7 +20,7 @@ To use this tool, you will need Python installed on your system along with the f
 You can install these packages using pip:
 
 ```bash
-pip install PyPDF2 pdfplumber pyyaml
+pip install PyPDF2 pdfplumber PyYAML
 ```
 ## Configuration
 Update the paths and criteria list in `config.yaml` to match your requirements.
@@ -30,12 +30,12 @@ target_pdf_path: 'path/to/target.pdf'
 text_criteria_list:
   - 'Text Criteria 1'
   - 'Text Criteria 2'
-  ...
+  ... 
 ```
 ## Usage
 To run the script, execute the following command in the terminal:
 ```bash
-python extract_pages_based_on_text.py
+python3 text_page_extractor.py
 ```
 
 This will extract pages from source_pdf_path containing the text defined in text_criteria_list and save them to target_pdf_path.
