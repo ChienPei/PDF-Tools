@@ -1,5 +1,0 @@
-source_pdf_path: 'path/to/source.pdf'
-target_pdf_path: 'path/to/target.pdf'
-text_criteria_list:
-  - 'Text Criteria 1'
-  - 'Text Criteria 2'
